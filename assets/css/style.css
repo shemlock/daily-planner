@@ -24,6 +24,7 @@ header {
 
 .description {
   white-space: pre-wrap;
+  line-height: 1.2;
 }
 
 .time-block {
@@ -67,9 +68,14 @@ header {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  font-size: 30px;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 40px;
   transition: all 0.3s ease-in-out;
+}
+
+.btn-clicked {
+  color: navy;
 }
