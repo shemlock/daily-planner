@@ -47,7 +47,7 @@ N/A
 
 https://github.com/shemlock/daily-planner/assets/147415364/5551c50d-8b9e-48c8-a04a-1dc130c486bd
 
-How to use the Work Day Scheduler: 
+**How to use the Work Day Scheduler:**
 * Open the app
 * In the header you will see today's day and date.
 * You will see a work block for each hour of the working day (9am to 5pm).
@@ -56,7 +56,8 @@ How to use the Work Day Scheduler:
 * The right column is where all the save buttons are. 
 * The hours of the day are colour coded.
 * Hours that have already past will appear as grey, the current hour is red and future hours are green.
-\n\n
+
+**Adding Tasks**
 * To add tasks or events simply click on the text box as seen in the video above.
 * Type in your tasks or events.
 * Press the enter button to write on a new line. 
@@ -66,13 +67,15 @@ How to use the Work Day Scheduler:
 * You MUST click this button after entering tasks and/or events.
 * If you don't, your changes to the page won't be saved and will dissapear once the page is refreshed.
 
-* It is important to press the save button for any changes, this includes adding, editing OR deleting tasks.
+**It is important to press the save button for any changes, this includes adding, editing OR deleting tasks**
 
+**Editing WorkBlocks**
 * If you wanted to add another task to a timeblock, you must remember to press save.
 * For example if a time-block already had the task "Wash Laundry" saved and you wanted to add "Dry laundry"
 * You must press save after adding the "Dry Laundry" task.
 * Now both "Wash Laundry" and " Dry Laundry" will appear after refreshing the page.
 
+**Deleting Tasks or Events**
 * Additionally, if you wanted to delete a task or delete part of a task, you must remember to press save. 
 * For example if your task was "Buy: Coffee, Milk, Biscuits", and you then deleted "Biscuits".
 * You must press save after deleting "Biscuits", otherwise "Buy: Coffee, Milk, Biscuits" will still show up after refreshing the page.
