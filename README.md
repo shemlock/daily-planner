@@ -1,7 +1,8 @@
 # Work Day Scheduler
-![daily planner](assets/images/planner.png)
 
 The link to the deployed application is here https://shemlock.github.io/daily-planner/
+
+![daily planner](assets/images/planner.png)
 
 ## Description
 
