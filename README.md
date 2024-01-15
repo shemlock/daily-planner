@@ -3,15 +3,32 @@
 
 ## Description
 
-This project creates a simple calendar application and daily planner that allows a user to save tasks or events for each hour of the day. 
+This project is a simple calendar application that allows users to save information for each hour of the day.
 
+The motivation for this project was to enable people with busy schedules to add important tasks and events to a daily planner so that they can manage their time effectively.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Work Day Scheduler solves the following problem: 
+* Being overwhelmed by your to-do lists.
+* Having an unorganised day.
+* Forgetting to complete certain tasks.
+* Missing appointments you forgot about.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+It solves these problems by allowing you to allocate a specific time for each task or event. Blocking off specific hours for specific things is known as time-blocking and is an excellent method for productivy and organisation. 
+
+Building this project helped me learn more about:
+* Day.js library
+* jQuery
+* Event Listeners and Event Handling
+* Saving data to local storage
+* Loading data from local storage
+* Removing data from local storage
+* DOM Manipulation
+* Conditional Logic
+* Looping and iteration
+* Bootstrap 
+* CSS
+* Class and ID selectors
+* Debugging
 
 ## Table of Contents (Optional)
 
@@ -21,8 +38,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - [License](#license)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 
