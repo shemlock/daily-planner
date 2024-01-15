@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     var currentDay = dayjs().format('dddd, MMMM Do');
 
-    // Use $ and # to select the element from your HTML that has the id "current day"
+    // Use JQuerys $ and # to select the element from your HTML that has the id "current day"
     // Then set the text for it to be the currentDay variable (which stores today's date in the preferred format) 
 
      $('#currentDay').text(currentDay);
@@ -42,8 +42,7 @@ $(document).ready(function() {
     - 12 is taken away from the hour to convert it from 24hour to 12hour
     - eg 13 would become 1
     - Then a PM string is concatenated to the result
-
-
+    
     - If not, it'll be formatted as AM by
     - Checking if the hour is exactly 0
     - Then using a ternary operator
@@ -51,20 +50,6 @@ $(document).ready(function() {
     - Because 0 in 24hour is 12 in 12hour
     - If its not equal to 0, the hour is returned
     - Then a AM string is concatenated to the result
-    */
-
-    function convertTime(hour) {
-        if (hour >=12) {
-            return (hour === 12 ? 12: hour - 12) + ' PM';
-        }   else {
-            return (hour === 0 ? 12: hour) + ' AM';
-        }
-    }
-
-    /*
-    - Declare the container variable 
-    - Select the container class from the html by using $ and .
-    - Assign it to the container variable
     */
 
     function convertTime(hour) {
@@ -124,7 +109,6 @@ $(document).ready(function() {
       
     */
 
-    
     for (var hour = hoursStart; hour <= hoursEnd; hour++) {
 
         //for the entire row
@@ -309,7 +293,42 @@ $('.container').on('input', '.description', function() {
     } 
 });
 
+//4. COLOUR CODING WORK BLOCKS
+ /* 
+  - Declare a variable called currentHour
+  - In this variable store the currrent hour 
+    by creating a new Date Object and
+  - Using the getHours method to get the current hour of the day
+ 
+  - Select all elements with the time-block class
+  - Iterate over them with JQuerys each method
 
+  - Declare a variable called plannerHour
+  - Use 'this' to refer to the time-block element
+  - Then to get the time use JQuerys data() method and access the 
+    data-time attribute using 'time'.
 
+  - Use an if statement to check: 
+    If plannerHour is less currentHour, if it is
+    then add the past class to the time-block elemnt
+  - If plannerHour is equal to currentHour, if it is 
+    then add the current class to the time-block element
+  - If plannerHour isn't less than or equal to currentHour
+    then add the future class to the time-block element. 
+
+  */
+
+var currentHour = new Date().getHours();
+$('.time-block').each(function() {
+  var plannerHour = $(this).data('time');
+  
+  if(plannerHour < currentHour){
+      $(this).addClass('past');
+  } else if (plannerHour === currentHour) {
+     $(this).addClass('present');
+  } else {
+     $(this).addClass('future');
+  }
+});
 
 });
