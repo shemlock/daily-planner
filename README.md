@@ -10,7 +10,7 @@ This project is a simple calendar application that allows users to save informat
 
 The motivation for this project was to enable people with busy schedules to add important tasks and events to a daily planner so that they can manage their time effectively.
 
-Work Day Scheduler solves the following problem: 
+Work Day Scheduler solves the following problems: 
 * Being overwhelmed by your to-do lists.
 * Having an unorganised day.
 * Forgetting to complete certain tasks.
