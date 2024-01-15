@@ -33,7 +33,7 @@ Building this project helped me learn more about:
 * Class and ID selectors
 * Debugging
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
