@@ -56,7 +56,7 @@ How to use the Work Day Scheduler:
 * The right column is where all the save buttons are. 
 * The hours of the day are colour coded.
 * Hours that have already past will appear as grey, the current hour is red and future hours are green.
-
+\n\n
 * To add tasks or events simply click on the text box as seen in the video above.
 * Type in your tasks or events.
 * Press the enter button to write on a new line. 
