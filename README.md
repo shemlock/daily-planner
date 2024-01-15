@@ -1,6 +1,8 @@
 # Work Day Scheduler
 ![daily planner](assets/images/planner.png)
 
+The link to the deployed application is here https://shemlock.github.io/daily-planner/
+
 ## Description
 
 This project is a simple calendar application that allows users to save information for each hour of the day.
@@ -42,13 +44,41 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+https://github.com/shemlock/daily-planner/assets/147415364/5551c50d-8b9e-48c8-a04a-1dc130c486bd
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+How to use the Work Day Scheduler: 
+* Open the app
+* In the header you will see today's day and date.
+* You will see a work block for each hour of the working day (9am to 5pm).
+* The left column shows the hours.
+* The middle column is a text box where you can write tasks or events.
+* The right column is where all the save buttons are. 
+* The hours of the day are colour coded.
+* Hours that have already past will appear as grey, the current hour is red and future hours are green.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+* To add tasks or events simply click on the text box as seen in the video above.
+* Type in your tasks or events.
+* Press the enter button to write on a new line. 
+* Then press the save button.
+* The save button is the white floppy disk icon and the right hand side of the page.
+* It will increase as size as you hover over it.
+* You MUST click this button after entering tasks and/or events.
+* If you don't, your changes to the page won't be saved and will dissapear once the page is refreshed.
+
+* It is important to press the save button for any changes, this includes adding, editing OR deleting tasks.
+
+* If you wanted to add another task to a timeblock, you must remember to press save.
+* For example if a time-block already had the task "Wash Laundry" saved and you wanted to add "Dry laundry"
+* You must press save after adding the "Dry Laundry" task.
+* Now both "Wash Laundry" and " Dry Laundry" will appear after refreshing the page.
+
+* Additionally, if you wanted to delete a task or delete part of a task, you must remember to press save. 
+* For example if your task was "Buy: Coffee, Milk, Biscuits", and you then deleted "Biscuits".
+* You must press save after deleting "Biscuits", otherwise "Buy: Coffee, Milk, Biscuits" will still show up after refreshing the page.
+* If you press save after deleting "Biscuits", then "Buy: Coffee, Milk" is what will appear after refreshing the page.
+  
+* However, if you delete EVERYTHING from a time-block, then you don't need to press save.
+* If a time-block is completely empty, anything previously saved will automatically be removed. 
 
 ## Credits
 N/A
@@ -61,12 +91,13 @@ N/A
 
 ## Features
 
- * Shows users the current date in the header
- * Allows users to add tasks and events for each hour of the workday (9am to 5pm)
- * User can save these tasks and events to local storage by clicking the save button
- * Saved tasks and events will be available after page refreshes
+ * Displays the current day at the top of the calender when a user opens the planner.
+ * Presents timeblocks for standard business hours (9am to 5pm) when the user scrolls down.
+ * Allows users to add tasks and events for each hour of the workday when they click a work block. 
+ * User can save tasks and events to local storage by clicking the save button for that work block.
+ * Saved tasks and events will be available after page refreshes.
  * Hours are colour coded.
- * Hour past are grey, current hour is red and future hours are green. 
+ * Hours past are grey, current hour is red and future hours are green.
 
 ## How to Contribute
 N/A
